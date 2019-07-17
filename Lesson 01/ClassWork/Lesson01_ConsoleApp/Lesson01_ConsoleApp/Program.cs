@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Threading;
 using System.Text;
+using System.Threading;
 
 namespace Lesson01_ConsoleApp
 {
@@ -8,8 +8,8 @@ namespace Lesson01_ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.InputEncoding = Encoding.ASCII;
-            Console.OutputEncoding = Encoding.ASCII;
+            Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
             Console.WriteLine("Введите имя");
             string name = Console.ReadLine();
             Thread.Sleep(3000);
