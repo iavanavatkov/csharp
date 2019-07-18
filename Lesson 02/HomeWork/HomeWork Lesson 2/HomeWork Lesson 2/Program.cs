@@ -8,6 +8,8 @@ namespace Lesson01_ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
             Console.Title = ("Калькулятор");
             Console.Write("Введите первое число: ");
             string firstNumber = Console.ReadLine();
