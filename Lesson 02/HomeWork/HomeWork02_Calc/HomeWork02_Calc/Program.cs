@@ -6,15 +6,17 @@ namespace HomeWork02_Calc
 	class Program
 	{		static void Main(string[] args)
 		{
-			Console.Title = ("Калькулятор");
-			Console.Write("Введите первое число: ");
-			string firstNumber = Console.ReadLine();
-			Console.Write("Введите второе число: ");
-			string secondNumber = Console.ReadLine();
-			firstNumber = firstNumber.Replace(".", ","); 
-			secondNumber = secondNumber.Replace(".", ",");
-			decimal firstNumberParsed = decimal.Parse(firstNumber);
-			decimal secondNumberParsed = decimal.Parse(secondNumber);
+	    Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
+	    Console.Title = ("Калькулятор");
+	    Console.Write("Введите первое число: ");
+	    string firstNumber = Console.ReadLine();
+	    Console.Write("Введите второе число: ");
+	    string secondNumber = Console.ReadLine();
+	    firstNumber = firstNumber.Replace(".", ","); 
+	    secondNumber = secondNumber.Replace(".", ",");
+	    decimal firstNumberParsed = decimal.Parse(firstNumber);
+	    decimal secondNumberParsed = decimal.Parse(secondNumber);
             Console.Write("Введите желаемую операцию: ");
 			string mathOperation = Console.ReadLine();
             mathOperation = mathOperation.ToUpper();
