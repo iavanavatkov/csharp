@@ -45,6 +45,7 @@ namespace Lesson03HomeWork
                     Console.WriteLine();
                 }
             }
+
             if (number == 2)
             {
                 Console.Write("Ну ладно.");
