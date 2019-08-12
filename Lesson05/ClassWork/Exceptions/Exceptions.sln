@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{F1D58456-BE45-4520-8797-F701C0905CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewException", "NewException\NewException.csproj", "{12F0DFC2-2DCF-4BE3-8060-8D26BB22A2A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D58456-BE45-4520-8797-F701C0905CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D58456-BE45-4520-8797-F701C0905CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D58456-BE45-4520-8797-F701C0905CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D58456-BE45-4520-8797-F701C0905CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F0DFC2-2DCF-4BE3-8060-8D26BB22A2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F0DFC2-2DCF-4BE3-8060-8D26BB22A2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F0DFC2-2DCF-4BE3-8060-8D26BB22A2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F0DFC2-2DCF-4BE3-8060-8D26BB22A2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {585697A6-2270-47E9-8F7D-121D4455326E}
+	EndGlobalSection
+EndGlobal
