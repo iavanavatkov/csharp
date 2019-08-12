@@ -64,7 +64,8 @@ namespace Practical
             color secondColor = (color)bestColorsUser[1];
             color thirdColor = (color)bestColorsUser[2];
             color fourthColor = (color)bestColorsUser[3];
-            color favouriteColors = (color)bestColorsUser[0] | (color)bestColorsUser[1] | (color)bestColorsUser[2] | (color)bestColorsUser[3]; //при попытке ввести сюда firstColor и прочие недавно объявленные переменные программа по каким-то причинам работала некорректно.
+            color favouriteColors = (color)bestColorsUser[0] | (color)bestColorsUser[1] | (color)bestColorsUser[2] | (color)bestColorsUser[3]; 
+            //при попытке ввести сюда firstColor и прочие недавно объявленные переменные программа по каким-то причинам работала некорректно.
             bool[] checkFavourite = new bool[13];
             color[] unfavouriteColors = new color[9];
             i = 0; //на всякий случай. 
@@ -95,10 +96,12 @@ namespace Practical
             //}
 
             Console.WriteLine($"Выбранные цвета: {firstColor}, {secondColor}, {thirdColor}, {fourthColor}");
-            Console.WriteLine($"Невыбранные цвета: {unfavouriteColors[0]}"); //здесь я сдался, поскольку условие по каким-то причинам не выполняется в любом случае. Продолжу позже, на свежую голову.
+            Console.WriteLine($"Невыбранные цвета: {unfavouriteColors[0]}"); 
+            //здесь я сдался, поскольку условие по каким-то причинам не выполняется в любом случае. Продолжу позже, на свежую голову.
 
 
             //старый костыль:
+
             //currentColor = color.Black;
             //i = 0;
 
