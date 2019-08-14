@@ -58,7 +58,6 @@ namespace Favorite_colors
             unfavouriteColors = favouriteColors ^ colorPallet;
             Console.WriteLine($"Ваши любимы цвета: {favouriteColors}  ");
             Console.WriteLine($"Ваши нелюбимые цвета: {unfavouriteColors}  ");
-            //В итоге работает некорректно, причина мне неизвестна.
         }
     }
 }
