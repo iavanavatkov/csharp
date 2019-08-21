@@ -32,6 +32,13 @@ namespace EvenOdd
                     Console.ForegroundColor = ConsoleColor.White;
                     continue;
                 }
+				catch (Exception elseError)
+				{
+					Console.ForegroundColor = ConsoleColor.Red;
+					Console.WriteLine($"Ошибка {elseError.Message}");
+					Console.ForegroundColor = ConsoleColor.White;
+					continue;
+				}
                 if (inputParsedLong <= 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;

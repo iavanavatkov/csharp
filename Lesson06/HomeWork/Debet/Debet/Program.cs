@@ -70,7 +70,14 @@ namespace Debet
                     Console.ForegroundColor = ConsoleColor.White;
                     continue;
                 }
-                if (inputPercentParsed <= 0)
+				catch (Exception elseError)
+				{
+					Console.ForegroundColor = ConsoleColor.Red;
+					Console.WriteLine($"Ошибка {elseError.Message}");
+					Console.ForegroundColor = ConsoleColor.White;
+					continue;
+				}
+				if (inputPercentParsed <= 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"Речь идёт не о кредите!");
