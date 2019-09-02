@@ -10,8 +10,8 @@ namespace Inverse
 			{
 				Console.Write("Введите слово для того, чтобы инвертировать его. " +
 							  "Напишите \"Выход\", чтобы остановить работу программы:  ");
-				string input = Console.ReadLine(); //Могу ли я сделать ToLower прямо здесь?
-				input = input.ToLower();
+				string input = Console.ReadLine().ToLower();
+				//input = input.ToLower();
 				if (input == "выход")
 				{
 					break;
