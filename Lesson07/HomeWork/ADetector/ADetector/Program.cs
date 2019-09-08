@@ -6,7 +6,22 @@ namespace ADetector
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			int WordsValue = 0;
+
+			Console.WriteLine("Введите слова через пробел для определения начинающихся с буквы \"А\"");
+			string input = Console.ReadLine().ToLower();
+			string[] inputArray = input.Split(' ');
+
+			foreach (string wordsCheck in inputArray)
+			{
+				bool checkLiteraA = wordsCheck.StartsWith("a");
+				if (checkLiteraA)
+				{
+					WordsValue++; 
+				}
+			}
+
+			Console.WriteLine($"В тексте содержится {WordsValue} слов на букву \"А\"");
 		}
 	}
 }
