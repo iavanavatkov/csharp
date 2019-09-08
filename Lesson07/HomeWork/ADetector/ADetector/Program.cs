@@ -14,7 +14,7 @@ namespace ADetector
 
 			foreach (string wordsCheck in inputArray)
 			{
-				bool checkLiteraA = wordsCheck.StartsWith("a");
+				bool checkLiteraA = wordsCheck.StartsWith("а");
 				if (checkLiteraA)
 				{
 					WordsValue++; 

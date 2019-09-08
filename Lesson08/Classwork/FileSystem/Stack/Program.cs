@@ -33,8 +33,8 @@ namespace Stack
 					}
 
 					Plates.Pop();
-					Console.WriteLine($"Успешно посушено! В стопке {Plates.Peek()} тарелок");
 					count--;
+					Console.WriteLine($"Успешно посушено! В стопке {Plates.Peek()} тарелок");
 					continue;
 				}
 				
