@@ -16,39 +16,29 @@ namespace BracketChecker
 			foreach (char brackets in input)
 			{
 				if (brackets == '(')
-				{
 					firstChecker++;
-				}
+				
 				if (brackets == ')')
-				{
 					firstChecker--;
-				}
+				
 				if (brackets == '[')
-				{
 					secondChecker++;
-				}
+				
 				if (brackets == ']')
-				{
 					secondChecker--;
-				}
+				
 				if (brackets == '{')
-				{
 					thirdChecker++;
-				}
+				
 				if (brackets == '}')
-				{
 					thirdChecker--;
-				}
 			}
 
 			if ((firstChecker & secondChecker & thirdChecker) == 0)
-			{
 				Console.WriteLine("Скобки расставлены верно");
-			}
+			
 			else
-			{
 				Console.WriteLine("Скобки расставлены неверно");
-			}
 		}
 	}
 }
