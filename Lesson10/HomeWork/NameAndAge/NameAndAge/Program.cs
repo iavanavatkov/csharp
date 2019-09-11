@@ -15,8 +15,10 @@ namespace NameAndAge
 			{
 				Console.Write($"Введите имя {id + 1} человека: ");
 				namesArray[id] = Console.ReadLine();
+				
 				Console.Write($"Введите возраст {id + 1} человека: ");
 				agesArray[id] = Console.ReadLine();
+				
 				id++;
 			}
 
